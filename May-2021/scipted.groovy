@@ -1,6 +1,6 @@
 node{
     stage("Pull"){
-        git 'https://github.com/ikambarov/spring-petclinic.git'
+        git 'https://github.com/sgasimov-dotcom/jenkins-test.git'
     }
     stage("Build"){
         sh '''
@@ -20,4 +20,3 @@ node{
         '''
     }
 }
-
